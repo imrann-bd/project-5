@@ -22,7 +22,7 @@
             </div>
             <div class="right flex items-center gap-10">
                 <div class="heart  flex gap-5 bg-[rgba(65,255,107,0.5)] px-6 py-2 rounded-full font-semibold">
-                    <span>0</span><img src="./assets/heart.png" alt="" width="30px">
+                    <span id="navbar-heart-icon">0</span><img src="./assets/heart.png" alt="" width="30px">
                 </div>
                 <div class="coin flex gap-5 bg-[rgba(65,255,107,0.5)] px-6 py-2 rounded-full font-semibold">
                     <span>100</span><img src="./assets/coin.png" alt="" width="30px">
@@ -52,7 +52,7 @@
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-4 rounded-xl"><img src="./assets/emergency.png" alt=""
                                     width="35px"></div>
-                            <span class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
+                            <span id="heart-icon1" class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
                         </div>
                         <h3 class="font-bold text-[24px] mt-[10px]">National Emergency Number</h3>
                         <h4 class="text-[18px] text-gray-600">National Emergency</h4>
@@ -61,7 +61,7 @@
                         <div class="mt-5 flex gap-5">
                             <button class="border px-[50px] py-[8px] rounded-[6px]"><span class="mr-3"><i
                                         class="fa-solid fa-copy"></i></span>Copy</button>
-                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px]"><span
+                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px] hover:bg-transparent hover:border-green-600 hover:text-black"><span
                                     class="mr-3"><i class="fa-solid fa-phone"></i></span>Call</button>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-4 rounded-xl"><img src="./assets/police.png" alt="" width="35px">
                             </div>
-                            <span class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
+                            <span id="heart-icon2" class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
                         </div>
                         <h3 class="font-bold text-[24px] mt-[10px]">Police Helpline Number</h3>
                         <h4 class="text-[18px] text-gray-600">Police</h4>
@@ -79,7 +79,7 @@
                         <div class="mt-5 flex gap-5">
                             <button class="border px-[50px] py-[8px] rounded-[6px]"><span class="mr-3"><i
                                         class="fa-solid fa-copy"></i></span>Copy</button>
-                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px]"><span
+                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px] hover:bg-transparent hover:border-green-600 hover:text-black"><span
                                     class="mr-3"><i class="fa-solid fa-phone"></i></span>Call</button>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-4 rounded-xl"><img src="./assets/fire-service.png" alt=""
                                     width="35px"></div>
-                            <span class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
+                            <span id="heart-icon3" class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
                         </div>
                         <h3 class="font-bold text-[24px] mt-[10px]">Fire Service Number</h3>
                         <h4 class="text-[18px] text-gray-600">Fire Service</h4>
@@ -97,7 +97,7 @@
                         <div class="mt-5 flex gap-5">
                             <button class="border px-[50px] py-[8px] rounded-[6px]"><span class="mr-3"><i
                                         class="fa-solid fa-copy"></i></span>Copy</button>
-                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px]"><span
+                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px] hover:bg-transparent hover:border-green-600 hover:text-black"><span
                                     class="mr-3"><i class="fa-solid fa-phone"></i></span>Call</button>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-4 rounded-xl"><img src="./assets/fire-service.png" alt=""
                                     width="35px"></div>
-                            <span class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
+                            <span id="heart-icon4" class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
                         </div>
                         <h3 class="font-bold text-[24px] mt-[10px]">Ambulance Service
                             Ambulance</h3>
@@ -116,7 +116,7 @@
                         <div class="mt-5 flex gap-5">
                             <button class="border px-[50px] py-[8px] rounded-[6px]"><span class="mr-3"><i
                                         class="fa-solid fa-copy"></i></span>Copy</button>
-                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px]"><span
+                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px] hover:bg-transparent hover:border-green-600 hover:text-black"><span
                                     class="mr-3"><i class="fa-solid fa-phone"></i></span>Call</button>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-4 rounded-xl"><img src="./assets/ambulance.png" alt=""
                                     width="35px"></div>
-                            <span class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
+                            <span id="heart-icon5" class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
                         </div>
                         <h3 class="font-bold text-[24px] mt-[10px]">Women & Child Helpline</h3>
                         <h4 class="text-[18px] text-gray-600">Women & Child Helpline</h4>
@@ -134,7 +134,7 @@
                         <div class="mt-5 flex gap-5">
                             <button class="border px-[50px] py-[8px] rounded-[6px]"><span class="mr-3"><i
                                         class="fa-solid fa-copy"></i></span>Copy</button>
-                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px]"><span
+                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px] hover:bg-transparent hover:border-green-600 hover:text-black"><span
                                     class="mr-3"><i class="fa-solid fa-phone"></i></span>Call</button>
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-4 rounded-xl"><img src="./assets/fire-service.png" alt=""
                                     width="35px"></div>
-                            <span class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
+                            <span id="heart-icon6" class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
                         </div>
                         <h3 class="font-bold text-[24px] mt-[10px]">Anti-Corruption Helpline</h3>
                         <h4 class="text-[18px] text-gray-600">Anti-Corruption</h4>
@@ -152,7 +152,7 @@
                         <div class="mt-5 flex gap-5">
                             <button class="border px-[50px] py-[8px] rounded-[6px]"><span class="mr-3"><i
                                         class="fa-solid fa-copy"></i></span>Copy</button>
-                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px]"><span
+                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px] hover:bg-transparent hover:border-green-600 hover:text-black"><span
                                     class="mr-3"><i class="fa-solid fa-phone"></i></span>Call</button>
                         </div>
                     </div>
@@ -161,7 +161,7 @@
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-4 rounded-xl"><img src="./assets/fire-service.png" alt=""
                                     width="35px"></div>
-                            <span class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
+                            <span id="heart-icon7" class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
                         </div>
                         <h3 class="font-bold text-[24px] mt-[10px]">Electricity Helpline</h3>
                         <h4 class="text-[18px] text-gray-600">Electricity Outage</h4>
@@ -170,7 +170,7 @@
                         <div class="mt-5 flex gap-5">
                             <button class="border px-[50px] py-[8px] rounded-[6px]"><span class="mr-3"><i
                                         class="fa-solid fa-copy"></i></span>Copy</button>
-                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px]"><span
+                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px] hover:bg-transparent hover:border-green-600 hover:text-black"><span
                                     class="mr-3"><i class="fa-solid fa-phone"></i></span>Call</button>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-4 rounded-xl"><img src="./assets/fire-service.png" alt=""
                                     width="35px"></div>
-                            <span class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
+                            <span id="heart-icon8" class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
                         </div>
                         <h3 class="font-bold text-[24px] mt-[10px]">Brac Helpline</h3>
                         <h4 class="text-[18px] text-gray-600">Brac</h4>
@@ -188,7 +188,8 @@
                         <div class="mt-5 flex gap-5">
                             <button class="border px-[50px] py-[8px] rounded-[6px]"><span class="mr-3"><i
                                         class="fa-solid fa-copy"></i></span>Copy</button>
-                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px]"><span
+                            <button
+                                class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px] hover:bg-transparent hover:border-green-600 hover:text-black"><span
                                     class="mr-3"><i class="fa-solid fa-phone"></i></span>Call</button>
                         </div>
                     </div>
@@ -197,7 +198,7 @@
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] p-4 rounded-xl"><img src="./assets/fire-service.png" alt=""
                                     width="35px"></div>
-                            <span class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
+                            <span id="heart-icon9" class="text-[24px]"><i class="fa-solid fa-heart"></i></span>
                         </div>
                         <h3 class="font-bold text-[24px] mt-[10px]">Bangladesh Railway Helpline </h3>
                         <h4 class="text-[18px] text-gray-600">Bangladesh Railway</h4>
@@ -206,7 +207,8 @@
                         <div class="mt-5 flex gap-5">
                             <button class="border px-[50px] py-[8px] rounded-[6px]"><span class="mr-3"><i
                                         class="fa-solid fa-copy"></i></span>Copy</button>
-                            <button class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px]"><span
+                            <button
+                                class="border px-[50px] py-[8px] bg-green-600 text-white rounded-[6px] hover:bg-transparent hover:border-green-600 hover:text-black"><span
                                     class="mr-3"><i class="fa-solid fa-phone"></i></span>Call</button>
                         </div>
                     </div>
@@ -215,12 +217,15 @@
                 <!-- Sidebar -->
                 <div class="sidebar w-[400px] p-[24px] bg-white rounded-[12px]">
                     <div class="lg:flex flex-col-1 justify-between items-center">
-                        <h2 class="text-[20px] font-semibold"><span class="mr-2"><i class="fa-solid fa-clock"></i></span>Call History</h2>
+                        <h2 class="text-[20px] font-semibold"><span class="mr-2"><i
+                                    class="fa-solid fa-clock"></i></span>Call History</h2>
                         <a class="bg-green-600 text-white font-semibold py-3 px-6 rounded-[20px] text-[18px]">Clear</a>
                     </div>
                 </div>
             </div>
     </main>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
