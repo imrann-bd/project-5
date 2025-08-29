@@ -59,6 +59,9 @@ callButtons.forEach(button => {
 
     coins -= 20;
     coinDisplay.innerText = coins;
+    
+     const now = new Date();
+    const timeString = now.toLocaleTimeString();
 
     const service = this.getAttribute('data-service');
     const number = this.getAttribute('data-number');
@@ -66,7 +69,9 @@ callButtons.forEach(button => {
     alert("Calling " + service + " : " + number);
 
     const li = document.createElement('li');
-    li.innerText = service + " - " + number;
+        li.className =
+      "p-5 rounded-xl shadow bg-gray-200 flex flex-end  items-center m-3";
+    li.innerText = service + " - " + number  +  " (time: " +  timeString+')';
     history.appendChild(li);
   });
 });
