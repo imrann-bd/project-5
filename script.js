@@ -78,7 +78,7 @@ callButtons.forEach(button => {
 
 document.getElementById('btn-clear').addEventListener('click', function () {
     history.innerHTML = "";
-    alert("History cleared!");
+    
 });
 
 // part 3
@@ -132,36 +132,3 @@ document.getElementById('btn-copy9').addEventListener('click', function () {
     sumCopy++;
     navbarCopies.innerText = sumCopy;
 })
-// document.getElementById('heart-icon2').addEventListener('click', function () {
-//     count++;
-//     navbarHeares.innerText = count;
-// });
-// document.getElementById('heart-icon3').addEventListener('click', function () {
-//     count++;
-//     navbarHeares.innerText = count;
-// });
-
-// document.getElementById('heart-icon4').addEventListener('click', function () {
-//     count++;
-//     navbarHeares.innerText = count;
-// }); document.getElementById('heart-icon5').addEventListener('click', function () {
-//     count++;
-//     navbarHeares.innerText = count;
-// });
-
-// document.getElementById('heart-icon6').addEventListener('click', function () {
-//     count++;
-//     navbarHeares.innerText = count;
-// }); document.getElementById('heart-icon7').addEventListener('click', function () {
-//     count++;
-//     navbarHeares.innerText = count;
-// });
-
-// document.getElementById('heart-icon8').addEventListener('click', function () {
-//     count++;
-//     navbarHeares.innerText = count;
-// });
-// document.getElementById('heart-icon9').addEventListener('click', function () {
-//     count++;
-//     navbarHeares.innerText = count;
-// });
